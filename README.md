@@ -3,7 +3,7 @@ Alpine-based Docker image for ZeroTier on Synology
 
 This container is originally based on [zyclonite/zerotier](https://hub.docker.com/r/zyclonite/zerotier) but is maintained officially by the ZeroTier team.
 
-This is publised to the GitHub container registry at "ghcr.io/tjenkinson/zerotier-synology" using the following tags:
+This is publised to the GitHub container registry at "[ghcr.io/tjenkinson/zerotier-synology](https://github.com/tjenkinson/zerotier-synology/pkgs/container/zerotier-synology)" using the following tags:
 
 - `<major>.<minor>.<patch>`
 - `<major>.<minor>`
