@@ -1,6 +1,6 @@
 FROM alpine:3.13 as builder
 
-ARG COMMIT=e8f7d5ef9e7ba6be0b2163cfa31f8817ba5b18f4
+ARG COMMIT=f1efea68002a24a234f15c18bee15fc64ca393c2
 
 RUN apk add --update alpine-sdk linux-headers \
   && git clone --quiet https://github.com/zerotier/ZeroTierOne.git /src \
