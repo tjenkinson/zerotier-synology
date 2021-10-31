@@ -9,7 +9,7 @@ RUN apk add --update alpine-sdk linux-headers \
   && make -f make-linux.mk
 
 FROM alpine:3.13
-LABEL version="1.6.5"
+LABEL version="1.6.6"
 LABEL description="ZeroTier One docker image for Synology NAS"
 
 RUN apk add --update --no-cache libc6-compat libstdc++
